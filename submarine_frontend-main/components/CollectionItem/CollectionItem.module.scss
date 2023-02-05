@@ -1,0 +1,36 @@
+.collection_item_wrapper {
+    // width: 18%;
+    padding: 15px;
+    background: #13202D;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #2A5075;
+    }
+
+    .item_info {
+        .nft_name {
+            margin: 8px 0;
+            color: #fff;
+            font-size: 17px;
+        }
+
+        .nft_description {
+            min-height: 50px;
+            color: #aaa;
+        }
+
+        .user_name {
+            display: flex;
+            align-items: center;
+            color: #31E9CB;
+            font-size: 14px;
+
+            span {
+                margin-left: 3px;
+            }
+        }
+
+    }
+}

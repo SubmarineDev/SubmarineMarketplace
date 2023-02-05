@@ -1,0 +1,87 @@
+.collectionPage_container {
+    display: flex;
+}
+
+.staking_section {
+    margin-top: 36px;
+    padding-top: 20px;
+
+    @media(max-width: 1024px) {
+        padding-top: 60px;
+        position: absolute;
+        left: 60px;
+        z-index: -1;
+    }
+
+    .staking_content {
+        margin-top: 70px;
+        padding: 18px 29px;
+
+        .staking_main_content {
+            margin-top: 50px;
+        }
+
+        .textTitle {
+            color: #FFFFFF;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+        .textContent {
+            color: #AAAAAA;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+        }
+
+        .textDailyEarn {
+            display: flex;
+            align-items: baseline;
+        }
+
+        .textTotal {
+            font-family: 'Quicksand';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 60px;
+            color: #00FFCE;
+        }
+
+        .textFluff {
+            font-family: 'Quicksand';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 60px;
+            color: #00FFCE;
+        }
+
+        .calendarGroup {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        @media only screen and (min-width: 1599px) {}
+
+        @media only screen and (max-width: 1439px) {}
+
+        @media only screen and (max-width: 1365px) {}
+
+        @media only screen and (max-width: 1279px) {}
+
+        @media only screen and (max-width: 1023px) {}
+
+        @media only screen and (max-width: 767px) {}
+
+        @media only screen and (max-width: 639px) {}
+
+        @media only screen and (max-width: 559px) {}
+
+        @media only screen and (max-width: 479px) {}
+    }
+
+}

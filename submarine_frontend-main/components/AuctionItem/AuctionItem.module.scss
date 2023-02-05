@@ -1,0 +1,38 @@
+.auction_item_wrapper {
+    padding: 10px;
+    // width: 31%;
+    background: #13202D;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    &:hover {
+        background-color:#2A5075;
+    }
+
+    .item_info {
+        padding-top: 11px;
+        text-align: left;
+        
+        .nft_name {
+            color: #fff;
+            font-size: 14px;
+        }
+
+        .user_name  {
+            display: flex;
+            align-items: center;
+            color: #7FF9E6;
+            font-size: 12px;
+
+            span {
+                margin-left: 7px;
+            }
+        }
+
+        p {
+            margin-bottom: 0;
+            color: #fff;
+            font-size: 16x;
+        }
+    }
+}

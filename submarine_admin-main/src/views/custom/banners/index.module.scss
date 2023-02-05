@@ -1,0 +1,21 @@
+.icon_content {
+	max-width: 206px;
+	max-height: 206px;
+	position: relative;
+}
+
+.icon_content img {
+	max-width: 206px;
+	max-height: 206px;
+	opacity: 1;
+}
+
+.icon_content input {
+	cursor: pointer;
+	position: absolute;
+	opacity: 0;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+}

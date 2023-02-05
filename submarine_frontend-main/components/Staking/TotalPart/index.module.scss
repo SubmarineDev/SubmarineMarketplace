@@ -1,0 +1,213 @@
+.stakeState {
+    margin-bottom: 28px;
+    display: flex;
+}
+
+.totalState {
+    height: 147px;
+    display: flex;
+    padding: 20px 25px 15px 25px;
+    background: #151515;
+    border-radius: 5px;
+}
+
+.walletState {
+    height: 147px;
+    display: flex;
+    padding: 20px 25px 15px 25px;
+    background: #151515;
+    border-radius: 5px;
+
+    .walletFurrsol {
+        border-right: 1px solid #222222;
+        padding-right: 20px;
+    }
+
+    .largeText {
+        font-size: 40px;
+    }
+
+    .normalText {
+        font-size: 14px;
+    }
+
+    .disableText {
+        color: #555555
+    }
+
+    .activeText {
+        color: #FFFFFF
+    }
+}
+
+.totalCount {
+    color: #00FFCE;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.totalPercent {
+    color: #AAAAAA;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.totalFurrsol {
+    border-right: 1px solid #222222;
+    padding-right: 47px;
+}
+
+.totalFluff {
+    border-left: 1px solid #000000;
+    padding-left: 35px;
+}
+
+.boxFluffCount {
+    color: #00FFCE;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.fluffImage {
+    width: 45px;
+    height: 45px;
+}
+
+.walletStakeCount {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+}
+
+.unstakeFurrsol {
+    border-right: 1px solid #222222;
+    padding-right: 20px;
+    padding-left: 25px;
+}
+
+.btnClaim {
+    margin-top: 3px;
+    width: 78px;
+    background: #7D3CCF;
+    border-radius: 3px;
+    padding: 3px 5px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    cursor: pointer;
+}
+
+.walletUnstakeTotal {
+    color: #555555;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 50px;
+}
+
+.walletTotalCount {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 50px;
+}
+
+
+@media only screen and (min-width: 1599px) {}
+
+@media only screen and (max-width: 1439px) {}
+
+@media only screen and (max-width: 1365px) {}
+
+@media only screen and (max-width: 1279px) {}
+
+@media only screen and (max-width: 1023px) {}
+
+@media only screen and (max-width: 767px) {
+    .totalFurrsol {
+        border-right: 1px solid #222222;
+        padding-right: 10px;
+    }
+
+    .totalFluff {
+        border-left: 1px solid #000000;
+        padding-left: 10px;
+    }
+
+    .totalCount {
+        color: #00FFCE;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+    }
+
+    .totalState {
+        height: 147px;
+        display: flex;
+        padding: 10px 15px 10px 15px;
+        background: #151515;
+        border-radius: 5px;
+    }
+
+    .walletState {
+        height: 147px;
+        display: flex;
+        padding: 10px 15px 10px 15px;
+        background: #151515;
+        border-radius: 5px;
+
+        .walletFurrsol {
+            border-right: 1px solid #222222;
+            padding-right: 10px;
+        }
+
+        .largeText {
+            font-size: 25px;
+        }
+
+        .normalText {
+            font-size: 12px;
+        }
+
+        .disableText {
+            color: #555555
+        }
+
+        .activeText {
+            color: #FFFFFF
+        }
+    }
+
+    .unstakeFurrsol {
+        border-right: 1px solid #222222;
+        padding-right: 10px;
+        padding-left: 15px;
+    }
+
+    .fluffImage {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media only screen and (max-width: 639px) {}
+
+@media only screen and (max-width: 559px) {}
+
+@media only screen and (max-width: 479px) {}

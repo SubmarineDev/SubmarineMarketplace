@@ -1,0 +1,161 @@
+.title,
+.fluff {
+    font-size: 0.875rem !important;
+}
+
+.remainTime {
+    font-size: 0.75rem !important;
+    background: #3E3E3E;
+    border-radius: 50px;
+    padding: 6px 12px !important;
+}
+
+.furr {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    padding: 4px;
+
+    p {
+        font-size: 0.71rem;
+    }
+}
+
+.btn_stake {
+    cursor: pointer;
+
+}
+
+.btnUnstake {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.nftButton {
+    border-radius: 3px;
+    width: 95px !important;
+    line-height: 1;
+}
+
+.nftClaim {
+    background-color: #1B1B1B !important;
+    border: 1px solid #111111 !important
+}
+
+.btn_collect {
+    cursor: pointer;
+}
+
+.boxCalendar {
+    width: 180px !important;
+    height: 170px !important;
+    background-color: #222222;
+    border-radius: 3px;
+    padding: 2.5px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.textTitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 4px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.textPerFurrsol {
+    font-size: 11px;
+    text-align: center;
+    color: #00FFCE;
+}
+
+.boxItems {
+    height: 125 !important;
+    border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.boxItem {
+    width: 20px;
+    height: 20px;
+    background: #555555;
+    border-radius: 3px;
+    margin: 2.5px
+}
+
+.boxItemActive {
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    margin: 2.5px
+}
+
+.boxItemDeactive {
+    width: 20px;
+    height: 20px;
+    background: #353535;
+    border-radius: 3px;
+    margin: 2.5px
+}
+
+.nftContent {
+    padding: 15px 10px;
+}
+
+
+.nftName {
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.nftAttribute {
+    font-size: 12px;
+    line-height: 15px;
+    font-style: normal;
+    margin-top: 5px;
+}
+
+.staked_box>button {
+    line-height: 1 !important;
+}
+
+.unstaked_box {
+    margin-top: 10px !important;
+    justify-content: space-evenly !important;
+}
+
+.claim_btn {
+    padding: 0px !important;
+}
+
+@media only screen and (min-width: 1599px) {}
+
+@media only screen and (max-width: 1439px) {}
+
+@media only screen and (max-width: 1365px) {}
+
+@media only screen and (max-width: 1279px) {}
+
+@media only screen and (max-width: 1023px) {}
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (max-width: 639px) {}
+
+@media only screen and (max-width: 559px) {}
+
+@media only screen and (max-width: 479px) {}

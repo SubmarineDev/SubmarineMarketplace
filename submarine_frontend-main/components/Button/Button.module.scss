@@ -1,0 +1,51 @@
+.btn_featured {
+    padding: 7px 10px;
+    background: #0E2A44;
+    border: 1px solid #1F5A92;
+    border-radius: 5px;
+    color: #A2CFFA;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+} 
+
+.btn_connect {
+    padding: 13px 26px;
+    background: #31E9CB;
+    color: #151C25;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_explore {
+    padding: 10px 20px;
+    background: #111;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    img {
+        margin-left: 13px;
+    }
+}
+
+.btn_viewall {
+    padding: 10px 20px;
+    background: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #7FF9E6;;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #7FF9E6;
+
+    img {
+        margin-left: 13px;
+    }
+}

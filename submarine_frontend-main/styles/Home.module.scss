@@ -1,0 +1,142 @@
+//1. Base Stuffs
+// @import "base/fonts";
+// @import "base/typography";
+// @import "base/extend";
+// @import "base/utilities";
+
+.clearfix {
+    clear: both;
+}
+.homepage_container {
+    display: flex;
+}
+
+.container_fluid {
+    width: 100%;
+}
+
+.homepage_section {
+    margin-top: 37px;
+    // width: calc(100vw - 199px); +17
+
+    .banner_image {
+        // width: 100%;
+        // height: 500px;
+        // background-size: cover;
+        // background-position: center center;
+        // background-repeat: no-repeat;
+    }
+
+    .popular_collections {
+        padding: 45px 40px;
+        border-top: 1px solid #0c2741;
+
+        .popular_collections_header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 18px;
+
+            .popular_collections_title {
+                font-size: 24px;
+                color: #fff;
+            }
+            .popular_collections_right {
+                display: flex;
+                align-items: center;
+
+                ul {
+                    list-style: none;
+                    display: flex;
+                    padding: 4px;
+                    align-items: center;
+                    margin-right: 10px;
+                    background: #050F19;
+                    border-radius: 5px;
+
+                    li {
+                        margin: 3px;
+                        padding: 7px 10px;
+                        color: #D3EAFF;
+                        font-size: 12px;
+                        cursor: pointer;
+
+                        &.active{
+                            background: #1B6A97 !important;
+                            border-radius: 3px;
+                            color: #fff;
+                        }
+                    }
+                }
+            }    
+        }
+
+        .popular_collections_list {
+            // display: flex;
+            // justify-content: space-between;
+        }
+    }
+}
+
+.mainSectionSlide {
+    padding-top: 0px !important;
+}
+
+@media(max-width: 768px) {
+    .homepage_section {
+        width: calc(100vw);
+        position: absolute;
+        z-index: -1;
+        left: 61px;
+
+        .popular_collections {
+            padding: 20px;
+
+            .popular_collections_header {
+                display: block;
+                text-align: center;
+
+                .popular_collections_title {
+           
+                }
+                .popular_collections_right {
+                   margin-top: 20px;
+                   justify-content: right;
+                  
+                }    
+            }
+
+            .popular_collections_list {
+                // display: flex;
+                // justify-content: space-between;
+            }
+        }
+    }
+}
+
+
+@media(max-width: 450px) {
+    .popular_collections_header {
+        display: block;
+        text-align: center;
+
+        .popular_collections_title {
+    
+        }
+        .popular_collections_right {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            justify-content: right;
+            
+            ul {
+                margin: 10px 0  ;
+            }
+        }    
+    }
+
+    .popular_collections_list {
+        // display: flex;
+        // justify-content: space-between;
+    }
+}

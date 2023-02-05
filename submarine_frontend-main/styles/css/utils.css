@@ -1,0 +1,573 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #102841;
+  font-family: "Rubik"
+}
+
+.clearfix {
+  clear: both;
+}
+
+.img_responsive {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.react-dropdown-select-dropdown {
+  border: 1px solid #2e4c66 !important;
+}
+
+.react-dropdown-select {
+  padding: 10px 15px;
+  background: #0d253a;
+  border-color: #0d253a !important;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+.react-dropdown-select:hover {
+  border-color: transparent;
+}
+
+.react-dropdown-select-item {
+  background: #2e4c66 !important;
+  border-bottom: 1px solid #3e566a !important
+}
+
+.react-dropdown-select-input {
+  display: none;
+}
+
+.ds-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.input-field1 {
+  margin: 10px 0;
+  padding-left: 10px;
+  width: 100%;
+  height: 33px;
+  background: #13202D;
+  border: 1px solid #1B6A97;
+  border-radius: 5px;
+  outline: none;
+  color: #fff;
+  font-size: 13px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+.on-hover:hover {
+  cursor: pointer;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-end {
+  align-items: flex-end
+}
+
+.align-content-center {
+  align-content: center;
+}
+
+.f {
+  align-content: space-between;
+}
+
+.align-content-center {
+  align-content: center
+}
+
+.align-content-start {
+  align-content: flex-start;
+}
+
+.flex-flow-wrap {
+  flex-flow: wrap;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.font-900 {
+  font-weight: 900 !important;
+}
+
+.font-700 {
+  font-weight: 700 !important;
+}
+
+.font-600 {
+  font-weight: 600 !important;
+}
+
+.font-400 {
+  font-weight: 400 !important;
+}
+
+.font-12 {
+  font-size: 12px !important;
+}
+
+.mt-96 {
+  margin-top: 96px;
+}
+
+.mt-56 {
+  margin-top: 56px;
+}
+
+.mt-48 {
+  margin-top: 48px !important;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-32 {
+  margin-top: 32px !important;
+}
+
+.mt-24 {
+  margin-top: 24px !important;
+}
+
+.mt-16 {
+  margin-top: 16px !important;
+}
+
+.mt-8 {
+  margin-top: 8px !important;
+}
+
+.mt-4 {
+  margin-top: 4px !important;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.ml-96 {
+  margin-left: 96px;
+}
+
+.ml-56 {
+  margin-left: 56px;
+}
+
+.ml-48 {
+  margin-left: 48px !important;
+}
+
+.ml-40 {
+  margin-left: 40px;
+}
+
+.ml-32 {
+  margin-left: 32px;
+}
+
+.ml-24 {
+  margin-left: 24px;
+}
+
+.ml-16 {
+  margin-left: 16px !important;
+}
+
+.ml-8 {
+  margin-left: 8px !important;
+}
+
+.ml-4 {
+  margin-left: 4px !important;
+}
+
+.ml-0 {
+  margin-left: 0;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-56 {
+  margin-right: 56px;
+}
+
+.mr-48 {
+  margin-right: 48px !important;
+}
+
+.mr-40 {
+  margin-right: 40px;
+}
+
+.mr-32 {
+  margin-right: 32px;
+}
+
+.mr-24 {
+  margin-right: 24px;
+}
+
+.mr-16 {
+  margin-right: 16px !important;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+
+.mr-4 {
+  margin-right: 4px !important;
+}
+
+.mr-0 {
+  margin-right: 0;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mb-96 {
+  margin-bottom: 96px;
+}
+
+.mb-56 {
+  margin-bottom: 48px;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+.mb-40 {
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+.mb-32 {
+  margin-bottom: 36px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-16 {
+  margin-bottom: 16px !important;
+}
+
+.mb-8 {
+  margin-bottom: 8px !important;
+}
+
+.mb-4 {
+  margin-bottom: 4px !important;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.pt-96 {
+  padding-top: 96px;
+}
+
+.pt-56 {
+  padding-top: 56px;
+}
+
+.pt-48 {
+  padding-top: 48px;
+}
+
+.pt-40 {
+  padding-top: 40px !important;
+}
+
+.pt-32 {
+  padding-top: 32px !important;
+}
+
+.pt-24 {
+  padding-top: 24px;
+}
+
+.pt-16 {
+  padding-top: 16px;
+}
+
+.pt-8 {
+  padding-top: 8px !important;
+}
+
+.pt-4 {
+  padding-top: 4px !important;
+}
+
+.pt-0 {
+  padding-top: 0 !important;
+}
+
+.pl-96 {
+  padding-left: 96px;
+}
+
+.pl-56 {
+  padding-left: 56px;
+}
+
+.pl-48 {
+  padding-left: 48px;
+}
+
+.pl-40 {
+  padding-left: 40px;
+}
+
+.pl-32 {
+  padding-left: 32px !important;
+}
+
+.pl-24 {
+  padding-left: 24px;
+}
+
+.pl-16 {
+  padding-left: 16px !important;
+}
+
+.pl-8 {
+  padding-left: 8px;
+}
+
+.pl-4 {
+  padding-left: 4px !important;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.pl-auto {
+  padding-left: auto;
+}
+
+.pr-56 {
+  padding-right: 56px;
+}
+
+.pr-48 {
+  padding-right: 48px;
+}
+
+.pr-40 {
+  padding-right: 40px;
+}
+
+.pr-32 {
+  padding-right: 32px !important;
+}
+
+.pr-24 {
+  padding-right: 24px;
+}
+
+.pr-16 {
+  padding-right: 16px !important;
+}
+
+.pr-8 {
+  padding-right: 8px;
+}
+
+.pr-4 {
+  padding-right: 4px !important;
+}
+
+.pr-0 {
+  padding-right: 0;
+}
+
+.pr-auto {
+  padding-right: auto;
+}
+
+.pb-96 {
+  padding-bottom: 96px;
+}
+
+.pb-56 {
+  padding-bottom: 48px;
+}
+
+.pb-48 {
+  padding-bottom: 48px;
+}
+
+.pb-40 {
+  padding-bottom: 48px;
+}
+
+.pb-32 {
+  padding-bottom: 36px !important;
+}
+
+.pb-24 {
+  padding-bottom: 24px;
+}
+
+.pb-16 {
+  padding-bottom: 16px;
+}
+
+.pb-8 {
+  padding-bottom: 8px !important;
+}
+
+.pb-4 {
+  padding-bottom: 4px !important;
+}
+
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+
+/**
+   *RIGHT RESPONSIVE IMAGE By Width
+   <div className={`imageWrapper`}>
+       <div className={`imageOver`}>
+          <img src={src} alt="Right Responsive image" />
+       </div>
+   </div>
+  */
+
+.box_image {
+  width: 220px;
+  height: 385px;
+  background-color: #252525;
+  margin-right: 25px;
+  border-radius: 3px;
+}
+
+.imageWrapper {
+  width: 220px;
+}
+
+.imageWrapper .imageOver {
+  display: flex;
+  align-items: center;
+
+  justify-content: flex-start;
+  position: relative;
+}
+
+.imageWrapper .imageOver img {
+  width: 220px;
+  height: 220px;
+}
+
+/*
+      Image to gray
+  */
+
+.image-gray {
+  -webkit-filter: grayscale(100%) !important;
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) !important;
+}

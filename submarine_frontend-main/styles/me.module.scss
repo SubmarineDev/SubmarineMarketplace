@@ -1,0 +1,233 @@
+.profile_section {
+    overflow: hidden;
+    flex: 1 1 auto;
+    margin-top: 150px;
+    max-width: 100%;
+    @media(max-width: 768px) {
+        position: absolute;
+        margin-top: 37px;
+        overflow: auto;
+        left: 60px;
+        width: calc(100vw - 60px);
+    }
+
+
+    .container {
+        margin: 0 auto;
+        width: 1300px;
+        // background: #333;
+        @media(max-width: 768px) {            
+            margin-top: 120px;
+            width: calc(100vw - 60px);
+            padding: 10px;
+        }
+        @media(min-width: 769px) and (max-width: 1420px) {
+            width: 100%;
+            padding: 30px;
+        }
+
+        .profile_header_section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            @media(max-width: 768px) {            
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .profile_items_statistics_list {
+                display: flex;
+                @media(max-width: 768px) {            
+                    display: block;
+                    order: 2;
+                    width: 100%;
+                }
+                @media(min-width: 769px) and (max-width: 1420px) {
+                    display: flex;
+                    justify-content: flex-start;
+                    flex-wrap: wrap;
+                }
+                dl {
+                    margin-right: 20px;
+                    padding: 17px;
+                    background: #0B354C;
+                    border-radius: 5px;
+                    font-size: 14px;
+                    @media(max-width: 768px) {            
+                        margin-right: 0px;
+                    }
+                    @media(min-width: 1209px) and (max-width: 1420px) {
+                        width: 31%;
+                    }
+                    @media(min-width: 769px) and (max-width: 1208px){
+                        width: 45%;
+                    }
+
+                    dt {
+                        color: #ccc;
+                        white-space: nowrap;
+                        font-weight: 500;
+                    }
+
+                    dd {
+                        margin-bottom: 0;
+                        color: #fff;
+                        font-weight: 700;
+                        span { color: #7FF9E6}
+                    }
+                }
+            }
+            .profile_wallet_list {
+                @media(max-width: 768px) {            
+                    order: 1;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+        .profile_body_section {
+            margin-bottom: 50px;
+
+            .tradable_header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 12px 0 16px 0;
+                @media(max-width: 768px) {            
+                    display: block;
+                }
+
+                .tradable_header_left {
+                    display: flex;
+                    align-items: center;
+
+                    p {
+                        margin-bottom: 0;
+                        margin-left: 8px;
+                        color: #fff;
+                        font-size: 15px;
+                    }
+                }
+
+                .tradable_header_right {
+                    @media(max-width: 768px) {            
+                        display: flex;
+                        flex-wrap: wrap;
+                    }
+                    span {
+                        margin-left: 8px;
+                        padding: 6px 8px;
+                        background-color:#0B354D;
+                        color: #fff;
+                        font-size: 11px;
+                        border-radius: 3px;
+                        @media(max-width: 768px) {            
+                            margin: 5px 5px 0px 0px;
+                        }
+                    }
+                }
+            }
+
+            .tradable_list {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(18%, 1fr));
+                grid-gap: 1rem;
+                gap: 1  rem;
+                @media(max-width: 768px) {            
+                    display: block;
+                }
+                .tradable_item {
+                    padding: 8px;
+                    background:#071421;
+                    border-radius: 5px;
+                    @media(max-width: 768px) {            
+                        margin-bottom: 5px;
+                    }
+
+                    .btn_add_listing {
+                        margin-top: 10px;
+                        width: 100%;
+                        background:#1B6A97;
+                        color: #fff;
+                        font-size: 15px;
+                        text-align: center;
+                        text-transform: none;
+                    }
+                }
+            }
+
+            .unverified_list {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(18%, 1fr));
+                grid-gap: 1rem;
+                gap: 1  rem;
+                margin-top: 20px;
+                min-height: 300px;
+                @media(max-width: 768px) {            
+                    display: block;
+                }
+
+                .unverified_item {
+                    padding: 8px;
+                    background:#071421;
+                    border-radius: 5px;
+                    @media(max-width: 768px) {            
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+
+            .table_container {
+                overflow: auto;
+            }
+
+            table {
+                    width: 100%;
+                    @media(max-width: 768px) {            
+                        
+                    }
+                   
+                    tr{
+                         th {
+                            padding: 7px 16px;
+                            border: 3px solid #0d2031;
+                            border-radius: 10px;
+                            background-color:#0B354C;
+                            font-size: 14px;
+                            color: #00D2FF;
+                        }
+
+                        td {
+                            padding: 16px;
+                            border-bottom: 1px solid #0C4258;
+                            font-size: 14px;
+                            color: #fff;
+
+                            &:first-child  {
+                                img {
+                                    margin-right: 5px;
+                                    width: 33px;
+                                }
+                                
+                            }
+                        }
+
+                        &:last-child td {
+                            border: none;
+                        }
+                    }
+
+                    tbody {
+                        tr:hover {
+                            background-color: rgba(127, 249, 230, 0.05);
+                           td {
+                                color: #7FF9E6;
+                           }
+                            cursor: pointer;
+                        }
+                    }
+                }
+        }
+    }
+}
